@@ -1,0 +1,35 @@
+.spot {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+    float: left;
+    background-color: #dff4f3;
+}
+
+.spot-start {
+    background-color: rgba(42, 187, 155, 1);
+}
+
+.spot-end {
+    background-color: #ff968a;
+}
+
+.spot-barrier {
+    background-color: #120136;
+}
+
+.spot-visiting {
+    background-color: #f7f48b;
+}
+
+.spot-visited {
+    background-color: #7effdb;
+}
+
+.spot-shortest-path {
+    background-color: #ae5bfc;
+    /*#b693fe;*/
+}

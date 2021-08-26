@@ -1,0 +1,16 @@
+.grid {
+    margin: 0 auto;
+    border: 5px solid #120136;
+}
+
+.overlay {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+    .overlay {
+        font-size: 20px;
+    }
+}
